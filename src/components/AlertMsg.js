@@ -9,9 +9,9 @@ const AlertMsg = () => {
       hideProgressBar={false}
       newestOnTop={true}
       pauseOnHover
+      autoClose={2000}
     />
   );
 };
 
 export default AlertMsg;
-    
